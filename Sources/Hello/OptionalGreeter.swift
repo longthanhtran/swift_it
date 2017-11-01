@@ -1,3 +1,3 @@
-func optionalGreeter (__person: String, on: String) -> String {
+func optionalGreeter (_ person: String, on: String) -> String {
     return "Hello \(person), today is \(day)."
 }
