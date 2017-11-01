@@ -6,6 +6,9 @@ if CommandLine.arguments.count != 2 {
     teamScore()
     caseGame()
     forInGame()
+    whileRun()
+    print(functionOne(person: "Bob", day: "Tuesday"))
+    print(optionalGreeter("John", on: "Wednesday"))
 } else {
     let name = CommandLine.arguments[1]
     sayHello(name: name)
