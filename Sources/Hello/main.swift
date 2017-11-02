@@ -20,11 +20,6 @@ if CommandLine.arguments.count != 2 {
     let numbers = [ 20, 19, 7, 12 ]
     print(hasAnyMatches(list: numbers, condition: lessThanTen))
 
-    let result = numbers.map({ (number: Int) -> Int in
-        return 3 * number
-    })
-    print(result)
-
 } else {
     let name = CommandLine.arguments[1]
     sayHello(name: name)
